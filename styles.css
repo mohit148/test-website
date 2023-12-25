@@ -1,36 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-
+@font-face {
+    font-family: ginto;
+    src: url(ABCGintoNord-Bold.ttf);
+}
 body {
-    background-color: aquamarine;
-    margin: 0%
-    
-}
-
-#logo {
     margin: 0%;
-    width: 100px;
-
 }
-#nav  a {
-    margin-right: 80px;
-    color: #5C8374;
-
-
-}
-#nav {
-    margin-right: 120px;
-    float: right;
-    font-family: 'Oswald', sans-serif;
-
-}
-.top {
+#header {
+    display: flex;
+    justify-content: space-between; /* Aligns items with space between them */
+    align-items: center; /* Aligns items vertically */
+    background-color: #1f1f1f;
     height: 80px;
-    background-color: blue;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    transition: top 0.5s;
-}
-.bodys p {
-    width: 500px;
+    border-radius: 0px 0px 30px 30px;
+    padding: 0 20px; /* Add padding for spacing */
+    font-family: ginto;
 
+  }
+
+  
+  #nav a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+
+  }
+.logo {
+    text-decoration: none;
+    color:white;
 }
+
+  
